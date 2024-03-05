@@ -12,6 +12,7 @@ import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Listeners;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import Project_POM.CarPOM;
@@ -36,18 +37,17 @@ public class CarTestNG  {
 	LoanCal3 lc3;
 	ScrollDown sd;
 	DriverSetup dd;
-
-
+	@Parameters("browser")
 	@BeforeClass(alwaysRun=true)
-	void setup() throws InterruptedException
+	void setup(String browser) throws InterruptedException
 	{
-//		dd=new DriverSetup();
-//		driver=dd.SelectDriver();
-		driver=new ChromeDriver();
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
-		driver.get("https://emicalculator.net/");
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
-		driver.manage().window().maximize();
+		dd=new DriverSetup();
+		driver=dd.SelectDriver(browser);
+		//driver=new ChromeDriver();
+//		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+//		driver.get("https://emicalculator.net/");
+//		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
+//		driver.manage().window().maximize();
 
 		ss=new Screenshots();
 		sd=new ScrollDown();

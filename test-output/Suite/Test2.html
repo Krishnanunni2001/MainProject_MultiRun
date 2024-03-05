@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>TestNG:  Default test</title>
+<title>TestNG:  Test2</title>
 <link href="../testng.css" rel="stylesheet" type="text/css" />
 <link href="../my-testng.css" rel="stylesheet" type="text/css" />
 
@@ -53,13 +53,13 @@ function toggleAllBoxes() {
 
 </head>
 <body>
-<h2 align='center'>Default test</h2><table border='1' align="center">
+<h2 align='center'>Test2</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>3/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Mar 05 12:51:20 IST 2024</td>
+<td>Started on:</td><td>Tue Mar 05 15:46:15 IST 2024</td>
 </tr>
-<tr><td>Total time:</td><td>242 seconds (242765 ms)</td>
+<tr><td>Total time:</td><td>1 seconds (1768 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,28 +67,25 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='Main_TestNG.testRunners.runScenario()'><b>runScenario</b><br>Test class: Main_TestNG.testRunners<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Car Loan", "Emi Calculator"</td>
-<td></td>
-<td>9</td>
-<td>Main_TestNG.testRunners@4135c3b</td></tr>
-<tr>
-<td title='Main_TestNG.testRunners.runScenario()'><b>runScenario</b><br>Test class: Main_TestNG.testRunners<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Home Loan", "Emi Calculator"</td>
-<td></td>
-<td>66</td>
-<td>Main_TestNG.testRunners@4135c3b</td></tr>
-<tr>
-<td title='Main_TestNG.testRunners.runScenario()'><b>runScenario</b><br>Test class: Main_TestNG.testRunners<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Checking UI Functionality", "Emi Calculator"</td>
-<td></td>
-<td>101</td>
-<td>Main_TestNG.testRunners@4135c3b</td></tr>
+<td title='Main_TestNG.testRunners.setUpClass()'><b>setUpClass</b><br>Test class: Main_TestNG.testRunners<br>Parameters: org.testng.TestRunner@320de594</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;String.hashCode()&quot; because &quot;&lt;local3&gt;&quot; is null
+	at Utilities.DriverSetup.SelectDriver(DriverSetup.java:20)
+	at Cucumber.Steps.Hooks.before_or_after_all(Hooks.java:32)
+</pre></div><a href='#' onClick='toggleBox("stack-trace966544353", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace966544353'><pre>java.lang.NullPointerException: Cannot invoke &quot;String.hashCode()&quot; because &quot;&lt;local3&gt;&quot; is null
+	at Utilities.DriverSetup.SelectDriver(DriverSetup.java:20)
+	at Cucumber.Steps.Hooks.before_or_after_all(Hooks.java:32)
+</pre></div></td>
+<td>1</td>
+<td>Main_TestNG.testRunners@34a3d150</td></tr>
 </table><p>
 </body>
 </html>

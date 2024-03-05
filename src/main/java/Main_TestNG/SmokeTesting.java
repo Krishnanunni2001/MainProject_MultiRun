@@ -24,11 +24,11 @@ public class SmokeTesting {
 	DriverSetup dd;
  
 	@BeforeClass
-	public void setup() throws InterruptedException
+	public void setup(String Browser) throws InterruptedException
 	{
 //		WebDriverManager.chromedriver().setup();
 		dd=new DriverSetup();
-		driver=dd.SelectDriver();
+		driver=dd.SelectDriver(Browser);
 	}
 	@Test(priority = 1)
 	public void car_Loan() throws IOException {

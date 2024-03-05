@@ -13,15 +13,14 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class DriverSetup {
 	
-	public WebDriver SelectDriver() {
+	public WebDriver SelectDriver(String browser) {
 		WebDriver d = null;
-		Scanner sc=new Scanner(System.in);
-		System.out.println("Enter the browser to execute \n1.Chrome\n2.Edge");
-		int a=sc.nextInt();
-		switch(a){
-			case 1: d=new ChromeDriver();
+//		Scanner sc=new Scanner(System.in);
+//		System.out.println("Enter the browser to execute \n1.Chrome\n2.Edge");
+		switch(browser){
+			case "chrome": d=new ChromeDriver();
 			        break;
-			case 2: d=new EdgeDriver();
+			case "edge": d=new EdgeDriver();
 	                break;
 	        default: System.out.println("Wrong choice\n");         
 		}
