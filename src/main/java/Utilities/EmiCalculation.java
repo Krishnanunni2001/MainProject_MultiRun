@@ -27,7 +27,7 @@ public class EmiCalculation {
 		double Month_Interest =  e*(rate_of_interest);
 		System.out.println("Monthly interest to be paid "+Month_Interest);
 		double Month_principle = e - Month_Interest ;
-		System.out.println("Monthly interest to be paid "+Month_principle);
+		System.out.println("Principal amount to be paid "+Month_principle);
 	    long emi=Math.round(e);
 	    return emi;
 	}
