@@ -11,7 +11,7 @@ import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
 
-import Main_TestNG.CarTestNG;
+import Main_TestNG.emiCalc_TestNG;
 
 import com.aventstack.extentreports.Status;
 
@@ -44,7 +44,7 @@ public class ExtentReportManager implements ITestListener
 		test = extent.createTest(result.getName()); // create a new enty in the report
 		test.log(Status.PASS, "Test case PASSED is:" + result.getName()); // update status p/f/s
 		try {
-			String imgPath = new Screenshots().ScreenShotTaker(CarTestNG.driver,result.getName());
+			String imgPath = new Screenshots().ScreenShotTaker(emiCalc_TestNG.driver,result.getName());
 			test.addScreenCaptureFromPath(imgPath);
 		} catch (Exception e1) {
 			e1.printStackTrace();

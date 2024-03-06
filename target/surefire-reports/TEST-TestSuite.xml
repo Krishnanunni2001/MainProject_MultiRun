@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestSuite" time="113.099" tests="12" errors="0" skipped="0" failures="0">
+<testsuite name="TestSuite" time="44.658" tests="32" errors="0" skipped="12" failures="2">
   <properties>
     <property name="jansi.mode" value="force"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
@@ -26,7 +26,7 @@
     <property name="user.variant" value=""/>
     <property name="stderr.encoding" value="UTF-8"/>
     <property name="os.name" value="Windows 11"/>
-    <property name="classworlds.conf" value="C:\Users\2303964\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf5128389924469353739.tmp"/>
+    <property name="classworlds.conf" value="C:\Users\2303964\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf17182357209217209225.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="stdout.encoding" value="UTF-8"/>
     <property name="java.library.path" value="C:\Program Files\Zulu\zulu-17\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Zulu/zulu-17/bin/server;C:/Program Files/Zulu/zulu-17/bin;C:\Program Files\Zulu\zulu-17\bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\2303964\AppData\Local\Microsoft\WindowsApps;;C:\Users\2303964\OneDrive - Cognizant\Desktop;;."/>
@@ -59,19 +59,98 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="java.vendor.version" value="Zulu17.32+13-CA"/>
-    <property name="m2e.build.project.data.socket.port" value="55891"/>
+    <property name="m2e.build.project.data.socket.port" value="51740"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="testLogo" classname="Main_TestNG.CarTestNG" time="2.168"/>
-  <testcase name="car_Loan" classname="Main_TestNG.CarTestNG" time="0.268"/>
-  <testcase name="Car_Loan" classname="Main_TestNG.CarTestNG" time="2.433"/>
-  <testcase name="EMI_Calculation" classname="Main_TestNG.CarTestNG" time="0.115"/>
-  <testcase name="home_Loan" classname="Main_TestNG.CarTestNG" time="2.76"/>
-  <testcase name="Home_page" classname="Main_TestNG.CarTestNG" time="17.052"/>
-  <testcase name="Loan_cal1" classname="Main_TestNG.CarTestNG" time="1.733"/>
-  <testcase name="Emi_Calc" classname="Main_TestNG.CarTestNG" time="31.999"/>
-  <testcase name="Loan_cal2" classname="Main_TestNG.CarTestNG" time="0.154"/>
-  <testcase name="Calc2" classname="Main_TestNG.CarTestNG" time="23.535"/>
-  <testcase name="Loan_cal3" classname="Main_TestNG.CarTestNG" time="0.195"/>
-  <testcase name="Calc3" classname="Main_TestNG.CarTestNG" time="30.687"/>
+  <testcase name="setup" classname="Main_TestNG.CarTestNG" time="39.872">
+    <failure message="Expected condition failed: waiting for presence of element located by: By.xpath: /html/body/div/div/main/article/div[1]/h1 (tried for 30 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: /html/body/div/div/main/article/div[1]/h1 (tried for 30 second(s) with 500 milliseconds interval)
+	at jdk.internal.reflect.GeneratedConstructorAccessor9.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:171)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:168)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	at Utilities.DriverSetup.SelectDriver(DriverSetup.java:30)
+	at Main_TestNG.CarTestNG.setup(CarTestNG.java:45)
+</failure>
+    <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Mar 06, 2024 10:06:27 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 113
+Mar 06, 2024 10:06:27 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 113.0.5672.93. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.17.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="testLogo" classname="Main_TestNG.CarTestNG" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testLogo" classname="Main_TestNG.CarTestNG" time="1.289"/>
+  <testcase name="car_Loan" classname="Main_TestNG.CarTestNG" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="car_Loan" classname="Main_TestNG.CarTestNG" time="0.207"/>
+  <testcase name="Car_Loan" classname="Main_TestNG.CarTestNG" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Car_Loan" classname="Main_TestNG.CarTestNG" time="2.924"/>
+  <testcase name="EMI_Calculation" classname="Main_TestNG.CarTestNG" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="EMI_Calculation" classname="Main_TestNG.CarTestNG" time="0.098"/>
+  <testcase name="home_Loan" classname="Main_TestNG.CarTestNG" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="home_Loan" classname="Main_TestNG.CarTestNG" time="5.961"/>
+  <testcase name="Home_page" classname="Main_TestNG.CarTestNG" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Home_page" classname="Main_TestNG.CarTestNG" time="15.618"/>
+  <testcase name="Loan_cal1" classname="Main_TestNG.CarTestNG" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Loan_cal1" classname="Main_TestNG.CarTestNG" time="2.311"/>
+  <testcase name="Emi_Calc" classname="Main_TestNG.CarTestNG" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Emi_Calc" classname="Main_TestNG.CarTestNG" time="374.121"/>
+  <testcase name="Loan_cal2" classname="Main_TestNG.CarTestNG" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Loan_cal2" classname="Main_TestNG.CarTestNG" time="0.215"/>
+  <testcase name="Calc2" classname="Main_TestNG.CarTestNG" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Calc2" classname="Main_TestNG.CarTestNG" time="22.624"/>
+  <testcase name="Loan_cal3" classname="Main_TestNG.CarTestNG" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Loan_cal3" classname="Main_TestNG.CarTestNG" time="0.192"/>
+  <testcase name="Calc3" classname="Main_TestNG.CarTestNG" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Calc3" classname="Main_TestNG.CarTestNG" time="29.164"/>
+  <testcase name="close_b" classname="Main_TestNG.CarTestNG" time="0.002">
+    <failure message="Cannot invoke &quot;org.openqa.selenium.WebDriver.close()&quot; because &quot;Main_TestNG.CarTestNG.driver&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.close()" because "Main_TestNG.CarTestNG.driver" is null
+	at Main_TestNG.CarTestNG.close_b(CarTestNG.java:164)
+</failure>
+  </testcase>
+  <testcase name="runScenario" classname="Main_TestNG.testRunners" time="4.784"/>
+  <testcase name="runScenario" classname="Main_TestNG.testRunners" time="23.186"/>
+  <testcase name="runScenario" classname="Main_TestNG.testRunners" time="93.426"/>
+  <testcase name="runScenario" classname="Main_TestNG.testRunners" time="2.6"/>
+  <testcase name="runScenario" classname="Main_TestNG.testRunners" time="21.828"/>
+  <testcase name="runScenario" classname="Main_TestNG.testRunners" time="90.91"/>
 </testsuite>

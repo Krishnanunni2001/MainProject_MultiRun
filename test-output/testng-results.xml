@@ -1,42 +1,181 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="0" passed="0" failed="0" skipped="0">
+<testng-results ignored="0" total="24" passed="24" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-05T15:46:15 IST" name="Suite" finished-at="2024-03-05T15:46:17 IST" duration-ms="1768">
+  <suite started-at="2024-03-06T11:07:11 IST" name="Suite" finished-at="2024-03-06T11:11:54 IST" duration-ms="282322">
     <groups>
-      <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Main_TestNG.testRunners@34a3d150]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
-      </group> <!-- cucumber -->
+      <group name="SmokeTest">
+        <method signature="emiCalc_TestNG.Loan_cal1()[pri:7, instance:Main_TestNG.emiCalc_TestNG@57a3af25]" name="Loan_cal1" class="Main_TestNG.emiCalc_TestNG"/>
+        <method signature="emiCalc_TestNG.Loan_cal2()[pri:9, instance:Main_TestNG.emiCalc_TestNG@57a3af25]" name="Loan_cal2" class="Main_TestNG.emiCalc_TestNG"/>
+        <method signature="emiCalc_TestNG.Loan_cal3()[pri:11, instance:Main_TestNG.emiCalc_TestNG@57a3af25]" name="Loan_cal3" class="Main_TestNG.emiCalc_TestNG"/>
+        <method signature="emiCalc_TestNG.car_Loan()[pri:2, instance:Main_TestNG.emiCalc_TestNG@57a3af25]" name="car_Loan" class="Main_TestNG.emiCalc_TestNG"/>
+        <method signature="emiCalc_TestNG.home_Loan()[pri:5, instance:Main_TestNG.emiCalc_TestNG@57a3af25]" name="home_Loan" class="Main_TestNG.emiCalc_TestNG"/>
+        <method signature="emiCalc_TestNG.Loan_cal1()[pri:7, instance:Main_TestNG.emiCalc_TestNG@78691363]" name="Loan_cal1" class="Main_TestNG.emiCalc_TestNG"/>
+        <method signature="emiCalc_TestNG.Loan_cal2()[pri:9, instance:Main_TestNG.emiCalc_TestNG@78691363]" name="Loan_cal2" class="Main_TestNG.emiCalc_TestNG"/>
+        <method signature="emiCalc_TestNG.Loan_cal3()[pri:11, instance:Main_TestNG.emiCalc_TestNG@78691363]" name="Loan_cal3" class="Main_TestNG.emiCalc_TestNG"/>
+        <method signature="emiCalc_TestNG.car_Loan()[pri:2, instance:Main_TestNG.emiCalc_TestNG@78691363]" name="car_Loan" class="Main_TestNG.emiCalc_TestNG"/>
+        <method signature="emiCalc_TestNG.home_Loan()[pri:5, instance:Main_TestNG.emiCalc_TestNG@78691363]" name="home_Loan" class="Main_TestNG.emiCalc_TestNG"/>
+      </group> <!-- SmokeTest -->
+      <group name="RegressionTest">
+        <method signature="emiCalc_TestNG.Calc2()[pri:10, instance:Main_TestNG.emiCalc_TestNG@57a3af25]" name="Calc2" class="Main_TestNG.emiCalc_TestNG"/>
+        <method signature="emiCalc_TestNG.Calc3()[pri:12, instance:Main_TestNG.emiCalc_TestNG@57a3af25]" name="Calc3" class="Main_TestNG.emiCalc_TestNG"/>
+        <method signature="emiCalc_TestNG.Car_Loan()[pri:3, instance:Main_TestNG.emiCalc_TestNG@57a3af25]" name="Car_Loan" class="Main_TestNG.emiCalc_TestNG"/>
+        <method signature="emiCalc_TestNG.EMI_Calculation()[pri:4, instance:Main_TestNG.emiCalc_TestNG@57a3af25]" name="EMI_Calculation" class="Main_TestNG.emiCalc_TestNG"/>
+        <method signature="emiCalc_TestNG.Emi_Calc()[pri:8, instance:Main_TestNG.emiCalc_TestNG@57a3af25]" name="Emi_Calc" class="Main_TestNG.emiCalc_TestNG"/>
+        <method signature="emiCalc_TestNG.Home_page()[pri:6, instance:Main_TestNG.emiCalc_TestNG@57a3af25]" name="Home_page" class="Main_TestNG.emiCalc_TestNG"/>
+        <method signature="emiCalc_TestNG.Loan_cal1()[pri:7, instance:Main_TestNG.emiCalc_TestNG@57a3af25]" name="Loan_cal1" class="Main_TestNG.emiCalc_TestNG"/>
+        <method signature="emiCalc_TestNG.Loan_cal2()[pri:9, instance:Main_TestNG.emiCalc_TestNG@57a3af25]" name="Loan_cal2" class="Main_TestNG.emiCalc_TestNG"/>
+        <method signature="emiCalc_TestNG.Loan_cal3()[pri:11, instance:Main_TestNG.emiCalc_TestNG@57a3af25]" name="Loan_cal3" class="Main_TestNG.emiCalc_TestNG"/>
+        <method signature="emiCalc_TestNG.car_Loan()[pri:2, instance:Main_TestNG.emiCalc_TestNG@57a3af25]" name="car_Loan" class="Main_TestNG.emiCalc_TestNG"/>
+        <method signature="emiCalc_TestNG.home_Loan()[pri:5, instance:Main_TestNG.emiCalc_TestNG@57a3af25]" name="home_Loan" class="Main_TestNG.emiCalc_TestNG"/>
+        <method signature="emiCalc_TestNG.testLogo()[pri:1, instance:Main_TestNG.emiCalc_TestNG@57a3af25]" name="testLogo" class="Main_TestNG.emiCalc_TestNG"/>
+        <method signature="emiCalc_TestNG.Calc2()[pri:10, instance:Main_TestNG.emiCalc_TestNG@78691363]" name="Calc2" class="Main_TestNG.emiCalc_TestNG"/>
+        <method signature="emiCalc_TestNG.Calc3()[pri:12, instance:Main_TestNG.emiCalc_TestNG@78691363]" name="Calc3" class="Main_TestNG.emiCalc_TestNG"/>
+        <method signature="emiCalc_TestNG.Car_Loan()[pri:3, instance:Main_TestNG.emiCalc_TestNG@78691363]" name="Car_Loan" class="Main_TestNG.emiCalc_TestNG"/>
+        <method signature="emiCalc_TestNG.EMI_Calculation()[pri:4, instance:Main_TestNG.emiCalc_TestNG@78691363]" name="EMI_Calculation" class="Main_TestNG.emiCalc_TestNG"/>
+        <method signature="emiCalc_TestNG.Emi_Calc()[pri:8, instance:Main_TestNG.emiCalc_TestNG@78691363]" name="Emi_Calc" class="Main_TestNG.emiCalc_TestNG"/>
+        <method signature="emiCalc_TestNG.Home_page()[pri:6, instance:Main_TestNG.emiCalc_TestNG@78691363]" name="Home_page" class="Main_TestNG.emiCalc_TestNG"/>
+        <method signature="emiCalc_TestNG.Loan_cal1()[pri:7, instance:Main_TestNG.emiCalc_TestNG@78691363]" name="Loan_cal1" class="Main_TestNG.emiCalc_TestNG"/>
+        <method signature="emiCalc_TestNG.Loan_cal2()[pri:9, instance:Main_TestNG.emiCalc_TestNG@78691363]" name="Loan_cal2" class="Main_TestNG.emiCalc_TestNG"/>
+        <method signature="emiCalc_TestNG.Loan_cal3()[pri:11, instance:Main_TestNG.emiCalc_TestNG@78691363]" name="Loan_cal3" class="Main_TestNG.emiCalc_TestNG"/>
+        <method signature="emiCalc_TestNG.car_Loan()[pri:2, instance:Main_TestNG.emiCalc_TestNG@78691363]" name="car_Loan" class="Main_TestNG.emiCalc_TestNG"/>
+        <method signature="emiCalc_TestNG.home_Loan()[pri:5, instance:Main_TestNG.emiCalc_TestNG@78691363]" name="home_Loan" class="Main_TestNG.emiCalc_TestNG"/>
+        <method signature="emiCalc_TestNG.testLogo()[pri:1, instance:Main_TestNG.emiCalc_TestNG@78691363]" name="testLogo" class="Main_TestNG.emiCalc_TestNG"/>
+      </group> <!-- RegressionTest -->
     </groups>
-    <test started-at="2024-03-05T15:46:15 IST" name="Test2" finished-at="2024-03-05T15:46:17 IST" duration-ms="1768">
-      <class name="Main_TestNG.testRunners">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:Main_TestNG.testRunners@34a3d150]" started-at="2024-03-05T15:46:15 IST" name="setUpClass" finished-at="2024-03-05T15:46:17 IST" duration-ms="1699" status="FAIL">
+    <test started-at="2024-03-06T11:07:11 IST" name="chromeTest" finished-at="2024-03-06T11:09:43 IST" duration-ms="151770">
+      <class name="Main_TestNG.emiCalc_TestNG">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Main_TestNG.emiCalc_TestNG@57a3af25]" started-at="2024-03-06T11:07:12 IST" name="setup" finished-at="2024-03-06T11:07:23 IST" duration-ms="11413" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@320de594]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "String.hashCode()" because "<local3>" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "String.hashCode()" because "<local3>" is null
-at Utilities.DriverSetup.SelectDriver(DriverSetup.java:20)
-at Cucumber.Steps.Hooks.before_or_after_all(Hooks.java:32)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUpClass -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Main_TestNG.testRunners@34a3d150]" started-at="2024-03-05T15:46:17 IST" name="tearDownClass" finished-at="2024-03-05T15:46:17 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- setup -->
+        <test-method signature="testLogo()[pri:1, instance:Main_TestNG.emiCalc_TestNG@57a3af25]" started-at="2024-03-06T11:07:23 IST" name="testLogo" finished-at="2024-03-06T11:07:26 IST" duration-ms="2250" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDownClass -->
-      </class> <!-- Main_TestNG.testRunners -->
-    </test> <!-- Test2 -->
+        </test-method> <!-- testLogo -->
+        <test-method signature="car_Loan()[pri:2, instance:Main_TestNG.emiCalc_TestNG@57a3af25]" started-at="2024-03-06T11:07:26 IST" name="car_Loan" finished-at="2024-03-06T11:07:26 IST" duration-ms="179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- car_Loan -->
+        <test-method signature="Car_Loan()[pri:3, instance:Main_TestNG.emiCalc_TestNG@57a3af25]" started-at="2024-03-06T11:07:27 IST" name="Car_Loan" finished-at="2024-03-06T11:07:29 IST" duration-ms="2358" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Car_Loan -->
+        <test-method signature="EMI_Calculation()[pri:4, instance:Main_TestNG.emiCalc_TestNG@57a3af25]" started-at="2024-03-06T11:07:29 IST" name="EMI_Calculation" finished-at="2024-03-06T11:07:29 IST" duration-ms="125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EMI_Calculation -->
+        <test-method signature="home_Loan()[pri:5, instance:Main_TestNG.emiCalc_TestNG@57a3af25]" started-at="2024-03-06T11:07:30 IST" name="home_Loan" finished-at="2024-03-06T11:07:58 IST" duration-ms="28531" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- home_Loan -->
+        <test-method signature="Home_page()[pri:6, instance:Main_TestNG.emiCalc_TestNG@57a3af25]" started-at="2024-03-06T11:07:58 IST" name="Home_page" finished-at="2024-03-06T11:08:12 IST" duration-ms="13078" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Home_page -->
+        <test-method signature="Loan_cal1()[pri:7, instance:Main_TestNG.emiCalc_TestNG@57a3af25]" started-at="2024-03-06T11:08:12 IST" name="Loan_cal1" finished-at="2024-03-06T11:08:13 IST" duration-ms="1214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Loan_cal1 -->
+        <test-method signature="Emi_Calc()[pri:8, instance:Main_TestNG.emiCalc_TestNG@57a3af25]" started-at="2024-03-06T11:08:13 IST" name="Emi_Calc" finished-at="2024-03-06T11:08:47 IST" duration-ms="33534" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Emi_Calc -->
+        <test-method signature="Loan_cal2()[pri:9, instance:Main_TestNG.emiCalc_TestNG@57a3af25]" started-at="2024-03-06T11:08:47 IST" name="Loan_cal2" finished-at="2024-03-06T11:08:47 IST" duration-ms="173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Loan_cal2 -->
+        <test-method signature="Calc2()[pri:10, instance:Main_TestNG.emiCalc_TestNG@57a3af25]" started-at="2024-03-06T11:08:48 IST" name="Calc2" finished-at="2024-03-06T11:09:12 IST" duration-ms="24032" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Calc2 -->
+        <test-method signature="Loan_cal3()[pri:11, instance:Main_TestNG.emiCalc_TestNG@57a3af25]" started-at="2024-03-06T11:09:12 IST" name="Loan_cal3" finished-at="2024-03-06T11:09:12 IST" duration-ms="234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Loan_cal3 -->
+        <test-method signature="Calc3()[pri:12, instance:Main_TestNG.emiCalc_TestNG@57a3af25]" started-at="2024-03-06T11:09:13 IST" name="Calc3" finished-at="2024-03-06T11:09:43 IST" duration-ms="29951" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Calc3 -->
+        <test-method is-config="true" signature="close_b()[pri:0, instance:Main_TestNG.emiCalc_TestNG@57a3af25]" started-at="2024-03-06T11:09:43 IST" name="close_b" finished-at="2024-03-06T11:09:43 IST" duration-ms="265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_b -->
+      </class> <!-- Main_TestNG.emiCalc_TestNG -->
+    </test> <!-- chromeTest -->
+    <test started-at="2024-03-06T11:09:49 IST" name="edgeTest" finished-at="2024-03-06T11:11:54 IST" duration-ms="124611">
+      <class name="Main_TestNG.emiCalc_TestNG">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Main_TestNG.emiCalc_TestNG@78691363]" started-at="2024-03-06T11:09:49 IST" name="setup" finished-at="2024-03-06T11:10:03 IST" duration-ms="13542" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testLogo()[pri:1, instance:Main_TestNG.emiCalc_TestNG@78691363]" started-at="2024-03-06T11:10:03 IST" name="testLogo" finished-at="2024-03-06T11:10:03 IST" duration-ms="516" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogo -->
+        <test-method signature="car_Loan()[pri:2, instance:Main_TestNG.emiCalc_TestNG@78691363]" started-at="2024-03-06T11:10:03 IST" name="car_Loan" finished-at="2024-03-06T11:10:04 IST" duration-ms="211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- car_Loan -->
+        <test-method signature="Car_Loan()[pri:3, instance:Main_TestNG.emiCalc_TestNG@78691363]" started-at="2024-03-06T11:10:04 IST" name="Car_Loan" finished-at="2024-03-06T11:10:06 IST" duration-ms="2161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Car_Loan -->
+        <test-method signature="EMI_Calculation()[pri:4, instance:Main_TestNG.emiCalc_TestNG@78691363]" started-at="2024-03-06T11:10:07 IST" name="EMI_Calculation" finished-at="2024-03-06T11:10:07 IST" duration-ms="77" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EMI_Calculation -->
+        <test-method signature="home_Loan()[pri:5, instance:Main_TestNG.emiCalc_TestNG@78691363]" started-at="2024-03-06T11:10:07 IST" name="home_Loan" finished-at="2024-03-06T11:10:09 IST" duration-ms="1735" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- home_Loan -->
+        <test-method signature="Home_page()[pri:6, instance:Main_TestNG.emiCalc_TestNG@78691363]" started-at="2024-03-06T11:10:09 IST" name="Home_page" finished-at="2024-03-06T11:10:22 IST" duration-ms="13527" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Home_page -->
+        <test-method signature="Loan_cal1()[pri:7, instance:Main_TestNG.emiCalc_TestNG@78691363]" started-at="2024-03-06T11:10:23 IST" name="Loan_cal1" finished-at="2024-03-06T11:10:24 IST" duration-ms="947" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Loan_cal1 -->
+        <test-method signature="Emi_Calc()[pri:8, instance:Main_TestNG.emiCalc_TestNG@78691363]" started-at="2024-03-06T11:10:24 IST" name="Emi_Calc" finished-at="2024-03-06T11:10:57 IST" duration-ms="32891" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Emi_Calc -->
+        <test-method signature="Loan_cal2()[pri:9, instance:Main_TestNG.emiCalc_TestNG@78691363]" started-at="2024-03-06T11:10:57 IST" name="Loan_cal2" finished-at="2024-03-06T11:10:57 IST" duration-ms="220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Loan_cal2 -->
+        <test-method signature="Calc2()[pri:10, instance:Main_TestNG.emiCalc_TestNG@78691363]" started-at="2024-03-06T11:10:58 IST" name="Calc2" finished-at="2024-03-06T11:11:21 IST" duration-ms="23204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Calc2 -->
+        <test-method signature="Loan_cal3()[pri:11, instance:Main_TestNG.emiCalc_TestNG@78691363]" started-at="2024-03-06T11:11:21 IST" name="Loan_cal3" finished-at="2024-03-06T11:11:22 IST" duration-ms="200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Loan_cal3 -->
+        <test-method signature="Calc3()[pri:12, instance:Main_TestNG.emiCalc_TestNG@78691363]" started-at="2024-03-06T11:11:22 IST" name="Calc3" finished-at="2024-03-06T11:11:53 IST" duration-ms="31124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Calc3 -->
+        <test-method is-config="true" signature="close_b()[pri:0, instance:Main_TestNG.emiCalc_TestNG@78691363]" started-at="2024-03-06T11:11:53 IST" name="close_b" finished-at="2024-03-06T11:11:54 IST" duration-ms="426" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_b -->
+      </class> <!-- Main_TestNG.emiCalc_TestNG -->
+    </test> <!-- edgeTest -->
   </suite> <!-- Suite -->
 </testng-results>
