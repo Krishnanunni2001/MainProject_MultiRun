@@ -6,12 +6,7 @@
 			<class name="Main_TestNG.emiCalc_TestNG" />
 		</classes>
 		 </test>
-	<test thread-count="5" name="edgeTest">
-		<classes>
-			<parameter name="browser" value="edge" />
-			<class name="Main_TestNG.emiCalc_TestNG" />
- 
-		</classes>
+	
 	</test>
 	
 </suite>
